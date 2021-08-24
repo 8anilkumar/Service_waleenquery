@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "95143251085",
+    "project_id": "servicewale-business",
+    "storage_bucket": "servicewale-business.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95143251085:android:3ac5d4d9aaa81e97b2e6c4",
+        "android_client_info": {
+          "package_name": "com.ennovation.servicewaleenquery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95143251085-5uq688kdrr0ceigdsgcqap4fbddea531.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ennovation.servicewaleenquery",
+            "certificate_hash": "c2b7b46d1f00ab309b9cdccc154694f7cb06e5ff"
+          }
+        },
+        {
+          "client_id": "95143251085-rdu2bg44kdpbr4orml3b678mv1f1nrqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeGwNVti466sTyZQ1ZwhzS_6TrdM4dTt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95143251085-rdu2bg44kdpbr4orml3b678mv1f1nrqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

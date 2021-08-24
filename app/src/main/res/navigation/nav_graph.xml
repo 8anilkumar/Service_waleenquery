@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/enqury">
+
+
+    <fragment
+        android:id="@+id/enqury"
+        android:name="com.ennovation.servicewaleenquery.Fragment.Enquries"
+        tools:layout="@layout/fragment_enquries">
+
+        <action
+            android:id="@+id/action_homeFragment_to_myOrder"
+            app:destination="@id/enqury_manager"/>
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/enqury_manager"
+        android:name="com.ennovation.servicewaleenquery.Fragment.EnquriesManager"
+        tools:layout="@layout/fragment_enquries_manager">
+
+        <action
+            android:id="@+id/action_homeFragment_to_refundAndEarn"
+            app:destination="@id/enqury_manager"/>
+
+    </fragment>
+
+
+
+
+</navigation>
